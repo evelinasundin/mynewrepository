@@ -1,0 +1,76 @@
+1. 
+
+Indentering: 
+
+Det ska alltid vara 4 spaces.
+
+Namngivning av variabler och funktioner:
+
+camelCase används för att identifiera variabelnamn samt att alla namn börjar med en bokstav 
+
+
+Deklaration av funktioner och variabler: 
+
+Alla variabler ska deklareras innan de används, de ska vara listade i alfabetisk ordning om möjligt. 
+Alla funktioner ska också vara deklarerade innan man använder dem, inre funktioner ska följa var statement. 
+
+Kommentering: 
+
+Single line comments ska starta med // 
+Multi-line comments startar med /* och slutar med */
+
+If, while och for-loopar: 
+
+For-loopar ska ha följande syntax:
+
+for (statement 1; statement 2; statement 3) {
+    code block to be executed
+}
+
+While-loopar ska ha följande syntax:
+
+while (condition) {
+    code block to be executed
+}
+
+If statement ska ha följande syntax:
+
+if (condition) {
+    block of code to be executed if the condition is true
+} 
+
+Hur man ska använda lokala och globala variabler: 
+
+Variabler deklarerade inuti en funktion blir lokala till funktionen, de har ett lokalt scope och kan bara användas inom funktionen, exempel:
+
+// code here can not use carName
+
+function myFunction() {
+    var carName = "Volvo";
+
+    // code here can use carName
+
+} 
+
+
+Globala variabler blir deklarerade utanför en funktion och har ett global scope vilket betyder att alla script och funktioner på en hemsida kan använda detta, exempel:
+
+var carName = " Volvo";
+
+// code here can use carName
+
+function myFunction() {
+
+    // code here can use carName
+
+} 
+
+2 & 3.
+
+Har jämfört w3schools och http://javascript.crockford.com/code.html
+
+De var överens på alla punkter 
+
+
+
+
